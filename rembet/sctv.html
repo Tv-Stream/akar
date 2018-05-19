@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-                  <title>CNN-Indonesia</title>
-       <link href='../icon/Privacy.ico' rel='shortcut icon'>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-              <script src="../js/lock.js"></script>
-        <link rel="stylesheet" href="../css/reset.css" />
-        <link rel="stylesheet" href="../css/glow.css" />
-        <script src="../js/jwplayer.js?v=4" ></script>
+                <title>SCTV - meTube.id Embed</title>
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://www.metube.id/cc-content/themes/default/css/reset.css" />
+        <link rel="stylesheet" href="https://www.metube.id/cc-content/themes/default/jwplayer/skins/glow.css" />
+        <script src="https://www.metube.id/cc-content/themes/default/jwplayer/jwplayer.js?v=4" ></script>
         <script>var AKAMAI_MEDIA_ANALYTICS_CONFIG_FILE_PATH = 'https://ma1330-r.analytics.edgekey.net/config/beacon-19803.xml';</script>
-        <script type="text/javascript" src="../js/akamaihtml5-min.js"></script>
-        <script type="text/javascript" src="../js/AkamaiJWPlayerLoader.js"></script>
-        <script src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://79423.analytics.edgekey.net/html5/akamaihtml5-min.js"></script>
+        <script type="text/javascript" src="https://www.metube.id/cc-content/themes/default/js/AkamaiJWPlayerLoader.js"></script>
+        <script src="https://www.metube.id/cc-content/themes/default/js/jquery.min.js"></script>
         <script>jwplayer.key = "ypdL3Acgwp4Uh2/LDE9dYh3W/EPwDMuA2yid4ytssfI=";</script>
         <style type="text/css">
             html, body, .video-unavailable, video, img, .video-js {
@@ -40,11 +38,13 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
   ga('create', 'UA-85299917-1', 'auto');
   ga('require', 'linkid');
         ga('set', 'dimension1', '0');
-    ga('set', 'dimension2', '1526404160.054');
+    ga('set', 'dimension2', '1526735328.9638');
     ga('send', 'pageview');
+
 </script>        <script type="text/javascript" src="https://analytics.mncdigital.id/public/js/mda.js"></script>
 <script>
             mda_set("set", "UserId", "0");
@@ -55,32 +55,52 @@
                 jwplayer('myElement').setup({
                                         playlist: [{
                             file: 'https://cdn-livetv1.metube.id/hls/sctv.m3u8',
-                            image: "../img/CNN-Indonesia.jpg",
-                            title: 'CNNI',
+                            image: "https://cdn-static.metube.id/live/image/1jqoSVtfCN9cYQhmZHBp.jpg",
+                            title: 'SCTV',
                             mediaid: '1'
+                        }, {
+                            file: '',
+                            image: "https://cdn-static.metube.id/live/image/1jqoSVtfCN9cYQhmZHBp.jpg",
+                            title: 'SCTV',
+                            mediaid: '2'
+                        }, {
+                            file: '',
+                            image: "https://cdn-static.metube.id/live/image/1jqoSVtfCN9cYQhmZHBp.jpg",
+                            title: 'SCTV',
+                            mediaid: '3'
+                        }, {
+                            file: '',
+                            image: "https://cdn-static.metube.id/live/image/1jqoSVtfCN9cYQhmZHBp.jpg",
+                            title: 'SCTV',
+                            mediaid: '4'
+                        }, {
+                            file: '',
+                            image: "https://cdn-static.metube.id/live/image/1jqoSVtfCN9cYQhmZHBp.jpg",
+                            title: 'SCTV',
+                            mediaid: '5'
                         }],
                                         width: "100%",
                     aspectratio: "16:9",
-                    abouttext: 'Tv-Stream',
+                    abouttext: 'meTube.id',
                                         stretching: "exactfit",
-                                                            aboutlink: 'https://twitter.com/dr_kunto',
+                                                            aboutlink: 'https://www.metube.id',
                     autostart: true,
                     androidhls: true,
                     displaydescription: true,
                     displaytitle: true,
                     visualplaylist: false,
-                    skin: {"active": "#c00", "inactive": "#fff", "name": "glow"},
+                    skin: {"active": "#DF2148", "inactive": "#CCCCCC", "name": "glow"},
                     plugins: {
-                                            "../js/ping.js": {"pixel": "http://content.jwplatform.com/ping.gif"}
+                                            "https://www.metube.id/cc-content/themes/default/js/ping.js": {"pixel": "http://content.jwplatform.com/ping.gif"}
                     },
-                                        ga: {
-                                                "idstring": "CNNI",
-                        "label": "214"
+                                       ga: {
+                                                "idstring": "SCTV",
+                        "label": "131"
                                             }
                 });
                 jwplayer('myElement').on('error', function () {
                                     if (jwplayer('myElement').getPlaylistIndex() >= (jwplayer('myElement').getPlaylist().length - 1)) {
-                        $('#player-play').html('<img width="100%" height="431.44" src="../icon/error_player.jpg" alt="tvstream error player"/>');
+                        $('#player-play').html('<img width="100%" height="431.44" src="https://www.metube.id/cc-content/themes/default/images/metube_error_player.jpg" alt="meTube error player"/>');
                     } else {
                         jwplayer('myElement').next();
                     }
@@ -89,6 +109,8 @@
                     akaJwPlugin = new AkamaiJWPlugin(jwplayer);
                 });
             </script>
-            <!-- END VIDEO -->     
+            <!-- END VIDEO -->
+
+        
     </body>
 </html>
